@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif; 
+}
+
+header
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #ffffff;
+}
+
+nav ul
+{
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+nav a{
+  
+  text-decoration: none;
+  color: #333333;
+  font-weight: bold;
+  
+}
+
+nav a:hover{
+  color: #5c3cf2;
+}
+.contact-header {
+ text-align: right;
+  
+}
